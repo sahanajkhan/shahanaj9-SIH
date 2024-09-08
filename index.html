@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link  rel ="stylesheet" type ="text/css" href="style.css">
+</head>
+<body>
+            <h1 class="regi"> Registration Form</h1>
+            <div class="box">
+            <form>
+                <h2>Personal Information</h2>
+                <label for="name"><img src="gender-neutral-user.png" width="18px" height="18px" style="justify-content: center; align-items: center;"> Name:</label>
+                <input type="text" placeholder="Enter Your Name" name="name" required><br><br>
+        
+                <label for="email"><img  src="gmail.png" width="18px" height="18px" style="justify-content: center; align-items: center;">Email:</label>
+                <input type="email"placeholder="Email" id="email" name="email" required><br><br>
+        
+                <label for="phone"> <img  src="icons8-telephone-48.png" alt="tele" width="20px" height="20px" style="justify-content: center; align-items: center;">  Phone Number:</label>
+                <input type="tel" placeholder="Mobile Number "   id="phone" name="phone" required><br><br>
+        
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+        
+                <label for="gender"><img src="icons8-gender-48.png" alt="tele" width="20px" height="20px" style="justify-content: center; align-items:center;"> Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br>
+        
+                <label for="country" > <img src="icons8-earth-50.png" width="20px" height="20px" alt=""> Country: </label>
+                <input type="text" placeholder="enter your country"  id="country" name="country" required>
+        
+                <h2>Address</h2>
+                <label for="address">Address:</label>
+                <textarea id="address" placeholder="address" required></textarea><br><br>
+        
+                <label for="city">City:</label>
+                <input type="text" placeholder="city" name="city" required><br><br>
+        
+                <label for="state">State:</label>
+                <input type="text" placeholder="state" name="state" required><br><br>
+        
+                <label for="zipcode">ZIP Code:</label>
+                <input type="text" placeholder="zipcode" name="zipcode" required><br><br>
+        
+                <h2>Additional Information</h2>
+                <label for="comment">Comments:</label>
+                <textarea placeholder="comment" name="comment"></textarea><br><br>
+        
+                <label for="occupation">Occupation:</label>
+                <input type="text" placeholder="occupation" name="occupation"><br><br>
+        
+                <label for="interests">Topics of Interest:</label>
+                <input type="text" placeholder="interests" name="interests"><br><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+    
+</body>
+</html>
